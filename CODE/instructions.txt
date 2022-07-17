@@ -1,0 +1,38 @@
+1) Install python version 3.9.12 (if below does not work)
+2) conda create -n MLCOURSE python=3.9
+3) conda install --file requirements.txt
+4) pip3 install -r requirements_pip.txt
+
+Or alternatively, if the above is painful in any way, just install:
+	
+conda install:
+	pandas=1.4.2
+	pytorch=1.10.2
+	scikit-learn=1.0.2
+	seaborn=0.11.2
+	tqdm=4.64.0
+	statsmodels=0.13.2
+	ta=0.10.1
+	graphviz=2.50.0
+	xgboost=1.5.0
+	gym=0.24.0
+
+pip install: 
+	notebook==6.4.12
+	ipywidgets==7.7.1
+	matplotlib==3.5.2
+	scipy==1.8.1
+	pandas-datareader==0.10.0
+	python-binance==1.0.16
+	kneed==0.7.0
+	hmmlearn==0.2.7
+	pyhhmm==2.0.1
+	ta==0.10.1
+	
+also:
+	pip install notebook==6.4.12 (or later version if you like)
+	then to launch just run from console:
+		jupyter notebook
+
+If using M1 Mac:
+conda install -c conda-forge lxml
